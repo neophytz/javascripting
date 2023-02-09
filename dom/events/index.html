@@ -5,9 +5,52 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Event Handler</title>
+
+    <style>
+        .colorDiv{
+            height: 200px;
+            width: 200px;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .parentDiv{
+            display: flex;
+            background-color: blueviolet;
+            justify-content: space-around;
+            padding: 20px;
+        }
+        #red{
+            background-color: red;
+        }
+        #yellow{
+            background-color: yellow;
+        }
+        #blue{
+            background-color: blue;
+        }
+        #green{
+            background-color: green;
+        }
+    </style>
+
+
 </head>
 <body>
-    <button id="myBtn">Click Me!</button>
+    <!-- <button id="addEL">Click me to add event listener.</button> -->
+    <!-- <button id="removeEL">Click me to remove event listener.</button> -->
+    <!-- <button id="myBtn">Click Me!</button> -->
+
+    <div class="parentDiv">
+        <div class="colorDiv" id="red">Red</div>
+        <div class="colorDiv" id="blue">Blue</div>
+        <div class="colorDiv" id="yellow">Yellow</div>
+        <div class="colorDiv" id="green">Green</div>
+    </div>
+    
+    
+    
     <script src="./index.js"></script>
 </body>
 </html>
