@@ -123,3 +123,8 @@
 // num='hello';
 // num=['nikhil', 14, 45, true];
 // num= {name:undefined};
+
+
+const myfunc = (num:number):number => {
+    return num;
+}
